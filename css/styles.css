@@ -1,0 +1,245 @@
+:root {
+  --link-btn-title-color: #212121;
+  --contact-aftertitle-color: #757575;
+  --hover-focus-color: #2196f3;
+  --address-map: #ffffff;
+  --benefits-job-team-title-name: #212121;
+  --benefits-team-text: #757575;
+  --text-color-btn-hover-focus: #ffffff;
+  --header-logo: #000000;
+  --footer-logo: #ffffff;
+}
+
+/* 1)-----PORTFOLIO------- */
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--link-btn-title-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--hover-focus-color);
+}
+
+.header-logo {
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--header-logo);
+}
+
+.footer-logo {
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--footer-logo);
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* HEADER */
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--link-btn-title-color);
+}
+
+.header-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--contact-aftertitle-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--hover-focus-color);
+}
+
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--hover-focus-color);
+}
+
+.header-list .link.current {
+  color: var(--hover-focus-color);
+}
+
+/* Hero */
+.hero-item {
+  font-family: "Roboto", inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--link-btn-title-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--hover-focus-color);
+  color: var(--text-color-btn-hover-focus);
+}
+
+/* ABOUT */
+
+.about-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--link-btn-title-color);
+}
+
+.about-after-title {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--contact-aftertitle-color);
+}
+
+/* FOOTER */
+.footer {
+  background-color: #2f303a;
+}
+
+.address-map {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--address-map);
+}
+
+.address-map:hover,
+.address-map:focus {
+  color: var(--hover-focus-color);
+}
+
+.address-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--hover-focus-color);
+}
+
+/* 2)-------INDEX.HTML-------*/
+
+.section {
+  background-color: #2f303a;
+}
+
+.section-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-color-btn-hover-focus);
+}
+
+.section-btn {
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-color-btn-hover-focus);
+  background-color: var(--hover-focus-color);
+}
+
+/* BENEFITS */
+
+.benefits-title {
+  font-size: 14px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--benefits-job-team-title-name);
+}
+
+.benefits-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--benefits-team-text);
+}
+
+/* ABOUT */
+
+.about-job {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--benefits-job-team-title-name);
+}
+
+/* TEAM */
+
+.team {
+  background: #f5f4fa;
+}
+.team-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--benefits-job-team-title-name);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--benefits-job-team-title-name);
+}
+.team-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--benefits-team-text);
+}
