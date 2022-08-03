@@ -69,7 +69,7 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--hover-focus-color);
-  margin-right: 130px;
+  margin-right: 93px;
 }
 
 .header-logo {
@@ -195,11 +195,17 @@ img {
 
 /* ABOUT */
 
+.section-about {
+  padding-top: 0;
+  padding-bottom: 94px;
+}
+
 .about-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--link-btn-title-color);
+  margin-bottom: 4px;
 }
 
 .about-after-title {
@@ -262,8 +268,12 @@ img {
   color: var(--hover-focus-color);
 }
 
-.addres-item {
+.addres-item:not(:last-child) {
   margin-bottom: 9px;
+}
+
+.logo-footer {
+  margin-right: 0;
 }
 
 /* 2)-------INDEX.HTML-------*/
@@ -366,6 +376,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--benefits-job-team-title-name);
+  margin-bottom: 10px;
 }
 .team-position {
   font-size: 16px;
